@@ -9,6 +9,12 @@ More information soon...
 
 Installation
 ------------
+akkaSniffer requires ASM for bytecode manipulation (version 5.x, <a href='http://forge.ow2.org/projects/asm/'>download</a>, download the latest version of asm-bin). The asm-all-X.X.X.jar is needed. Copy the file asm-all-X.X.X.jar to %JAVA_HOME%/jre/lib/ext or add this file to the boot classpath by adding the -Xbootclasspath/a:<PATH to asm-all-X.X.X.jar> option to the java command when starting your akka application (for sbt users "sbt -J-Xbootclasspath/a:./asm-all-5.0.3.jar")
+
+<code>
+bla
+</code>
+
 More information soon...
 
 Usage
